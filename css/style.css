@@ -1,8 +1,8 @@
 body {
-    background-color: #817070;
+    background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
 }
 
@@ -12,6 +12,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    background: #b3fe73;
     align-items: center;
     height: 35px;
     width: 100%;
@@ -30,7 +31,7 @@ body {
 /* -------------------------------- */
 
 .material-symbols-outlined {
-    color: #817070;
+    color: #b3fe73;
     font-variation-settings:
             'FILL' 0,
             'wght' 400,
@@ -46,7 +47,36 @@ body {
 
 .main {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    height: 600px;
+    width: 100%;
+    background-image: url(img/ekatOpen.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.title {
+    display: flex;
+}
+
+.text {
+    display: flex;
+}
+
+.title__text {
+    display: flex;
+    font-family: 'Oswald', sans-serif;
+    font-size: xxx-large;
+    color: white;
+}
+
+.text__text {
+    display: flex;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 30px;
+    font-size: large;
+    color: white;
 }

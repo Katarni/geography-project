@@ -1,3 +1,50 @@
 body {
-    font-family: 'Oswald', sans-serif;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background: #b3fe73;
+    align-items: center;
+    height: 35px;
+    width: 100%;
+}
+
+.menu__ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.menu__li {
+    margin-right: 10px;
+}
+
+/* -------------------------------- */
+
+.material-symbols-outlined {
+    color: #b3fe73;
+    font-variation-settings:
+            'FILL' 0,
+            'wght' 400,
+            'GRAD' -25,
+            'opsz' 56
+}
+
+.material-symbols-outlined:hover {
+    color: white;
+}
+
+/* -------------------------------- */
+
+.main {
+    display: flex;
+    flex-direction: row;
+
 }
