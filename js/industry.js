@@ -1,7 +1,7 @@
 function move(event) {
     switch (event.key) {
         case "ArrowLeft":
-            location.href = "index.html";
+            location.href = "about.html";
             break;
         case "ArrowRight":
             location.href = "#";

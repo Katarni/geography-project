@@ -1,0 +1,30 @@
+body {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background: #b3fe73;
+    align-items: center;
+    height: 35px;
+    width: 1028px;
+}
+
+.menu__ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.menu__li {
+    margin-right: 10px;
+}
+
+/* -------------------------------- */
+

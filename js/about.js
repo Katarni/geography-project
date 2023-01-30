@@ -1,10 +1,10 @@
 function move(event) {
     switch (event.key) {
         case "ArrowLeft":
-            alert("Вы на первом слайде");
+            location.href = "index.html";
             break;
         case "ArrowRight":
-            location.href = "about.html";
+            location.href = "industry.html";
             break;
     }
 }
