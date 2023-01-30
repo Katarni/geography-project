@@ -28,3 +28,46 @@ body {
 
 /* -------------------------------- */
 
+.material-symbols-outlined {
+    color: #b3fe73;
+    font-variation-settings:
+            'FILL' 0,
+            'wght' 400,
+            'GRAD' -25,
+            'opsz' 56
+}
+
+.material-symbols-outlined:hover {
+    color: white;
+}
+
+/* -------------------------------- */
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 1027px;
+    height: 600px;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.title__text {
+    display: flex;
+    font-family: 'Oswald', sans-serif;
+    font-size: xx-large;
+    color: black;
+    text-align: center;
+}
+
+.information {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
