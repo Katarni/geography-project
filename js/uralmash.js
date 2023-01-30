@@ -1,10 +1,10 @@
 function move(event) {
     switch (event.key) {
         case "ArrowLeft":
-            location.href = "about.html";
+            location.href = "industry.html";
             break;
         case "ArrowRight":
-            location.href = "uralmash.html";
+            location.href = "#";
             break;
     }
 }
