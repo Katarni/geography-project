@@ -15,7 +15,7 @@ body {
     background: #b3fe73;
     align-items: center;
     height: 35px;
-    width: 100%;
+    width: 1028px;
 }
 
 .menu__ul {
@@ -52,7 +52,7 @@ body {
     align-items: center;
     height: 600px;
     width: 100%;
-    background-image: url(img/ekatOpen.jpeg);
+    background-image: url(img/yekatOpen.jpeg);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -70,7 +70,8 @@ body {
     display: flex;
     font-family: 'Oswald', sans-serif;
     font-size: xxx-large;
-    color: white;
+    color: black;
+    background-color: white;
 }
 
 .text__text {
@@ -78,5 +79,6 @@ body {
     font-family: 'Oswald', sans-serif;
     margin-top: 30px;
     font-size: large;
-    color: white;
+    color: black;
+    background-color: white;
 }

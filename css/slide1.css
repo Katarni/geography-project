@@ -13,7 +13,7 @@ body {
     background: #b3fe73;
     align-items: center;
     height: 35px;
-    width: 100%;
+    width: 1028px;
 }
 
 .menu__ul {
@@ -45,6 +45,41 @@ body {
 
 .main {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: start;
+    width: 1027px;
+    height: 600px;
+}
 
+.title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.title__text {
+    display: flex;
+    font-family: 'Oswald', sans-serif;
+    font-size: xx-large;
+    color: black;
+}
+
+.information {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.text {
+    width: 500px;
+}
+
+.text__text {
+    font-family: 'Oswald', sans-serif;
+    font-size: medium;
+}
+
+.img {
+    width: 400px;
 }
