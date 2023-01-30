@@ -69,5 +69,33 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
 
+.text {
+    width: 500px;
+}
+
+.text__text {
+    font-family: 'Oswald', sans-serif;
+    font-size: medium;
+}
+
+.img__div {
+    background-color: #f8f9fa;
+    border: 1px solid gray;
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img__text {
+    font-family: 'Oswald', sans-serif;
+    font-size: small;
+}
+
+.img {
+    width: 400px;
+    margin-top: 5px;
 }
