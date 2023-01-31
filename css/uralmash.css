@@ -65,19 +65,26 @@ body {
     text-align: center;
 }
 
+.title__img {
+    height: 100px;
+}
+
 .information {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.text {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.text {
-    width: 500px;
-}
-
 .text__text {
     font-family: 'Oswald', sans-serif;
     font-size: medium;
+    width: 500px;
 }
 
 .img__div {
@@ -98,4 +105,10 @@ body {
 .img {
     width: 400px;
     margin-top: 5px;
+}
+
+.information__ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
 }
