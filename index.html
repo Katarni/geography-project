@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script type="text/javascript" src="jquery.js"></script>
     <title>Open Slide</title>
 </head>
 <body>
@@ -20,15 +21,14 @@
             <li class="menu__li"><a href="about.html" class="menu__link"><span class="material-symbols-outlined">arrow_forward_ios</span></a> </li>
         </ul>
     </menu>
-    <main class="main">
-        <div class="title">
-            <h1 class="title__text">Екатеринбург</h1>
-        </div>
-        <div class="text">
-            <p class="text__text">Подготовил Ахметзянов Тимур</p>
-        </div>
+    
+    <main class="main-wrap">
+        <div data-image="/css/img/yekatOpen.jpeg" data-bg="#000" data-height="550" data-text="Екатеринбург" data-repeat="1550" data-minfont="9" data-maxfont="11" class="text-bg" style="height: 600px; background-image: url('/css/img/yekatOpen.jpeg');"></div>
     </main>
-
+    <footer class="footer">
+        <p class="footer__text">Выполнил Тимур Ахметзянов</p>
+    </footer>
+    <script src="js/jquery-3.6.3.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>
