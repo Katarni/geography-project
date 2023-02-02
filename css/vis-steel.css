@@ -55,7 +55,6 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-bottom: 30px;
 }
 
 .title__text {
@@ -64,6 +63,10 @@ body {
     font-size: xx-large;
     color: black;
     text-align: center;
+}
+
+.title__img {
+    height: 100px;
 }
 
 .information {
@@ -104,10 +107,4 @@ body {
 .img {
     width: 400px;
     margin-top: 5px;
-}
-
-.information__ul {
-    display: flex;
-    flex-direction: column;
-    list-style: none;
 }
