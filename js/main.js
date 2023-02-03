@@ -4,7 +4,7 @@ function move(event) {
             alert("Вы на первом слайде");
             break;
         case "ArrowRight":
-            location.href = "about.html";
+            location.href = "slide_list.html";
             break;
     }
 }

@@ -1,0 +1,127 @@
+body {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background: #b3fe73;
+    align-items: center;
+    height: 35px;
+    width: 1028px;
+}
+
+.menu__ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.menu__li {
+    margin-right: 10px;
+}
+
+/* -------------------------------- */
+
+.material-symbols-outlined {
+    color: #b3fe73;
+    font-variation-settings:
+            'FILL' 0,
+            'wght' 400,
+            'GRAD' -25,
+            'opsz' 56
+}
+
+.material-symbols-outlined:hover {
+    color: white;
+}
+
+/* -------------------------------- */
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1500px;
+    /*height: 600px;*/
+}
+
+.main-container {
+    height: 100%;
+    width: 1200px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.content-box {
+    height: 308px;
+    width: 382px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2), 0 4px 6px rgba(0,0,0,0.2);
+	transition: box-shadow .3s;
+    background-color: #F8F9FA;
+    border-radius: 8px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.content-box .content-box-img .img  {
+    transition: transform 280ms ease-in-out;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;	
+}
+
+.content-box:hover .content-box-img .img  {
+	transform: scale(1.1);
+}
+
+.content-box:hover {
+    box-shadow: 5px 5px 10px #797979;
+}
+
+.content-box-img {
+    height: 175px;
+    
+    overflow: hidden;
+}
+
+.img {
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.content-box-title {
+    height: 54px;
+}
+
+.title {
+    font-family: 'Oswald', sans-serif;
+    color: black;
+    font-size: large;
+    text-align: center;
+}
+
+.content-box-description {
+    height: 79px;
+}
+
+.description {
+    font-family: 'Oswald', sans-serif;
+    color: black;
+    margin-left: 15px;
+    font-size: mediums;
+    box-sizing: border-box;
+}
